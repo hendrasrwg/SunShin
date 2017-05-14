@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:padding="10dp"
     android:weightSum="1.2"
     >
@@ -25,7 +25,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tv1"
+            android:id="@+id/tvDay"
             android:textSize="20sp"
             android:text="Sunday"
             />
@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/tv2"
+            android:id="@+id/tvForecast"
             android:text="sunny"
             />
 
@@ -50,7 +50,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/tv3"
+            android:id="@+id/tvMax"
             android:textSize="28sp"
             android:text="19\u00b0"
             />
@@ -59,7 +59,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/tv4"
+            android:id="@+id/tvMin"
             android:textSize="28sp"
             android:text="17\u00b0"
             />
